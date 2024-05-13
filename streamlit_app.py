@@ -18,13 +18,13 @@ x = st.sidebar.selectbox(
     'x variable',
     ('Year', 'Hours Usually Worked', 'Household Income',
        'Household Members', 'HS or GED', 'Years of College',
-       'Ever in Military', 'Currently in Military', 'Union Member', 'City'
+       'Ever in Military', 'Currently in Military', 'Union Member', 'City')
 )
 y = st.sidebar.selectbox(
     'y variable',
     ('Year', 'Hours Usually Worked', 'Household Income',
        'Household Members', 'HS or GED', 'Years of College',
-       'Ever in Military', 'Currently in Military', 'Union Member', 'City'
+       'Ever in Military', 'Currently in Military', 'Union Member', 'City')
 )
 
 st.scatter_chart(data = data, x = x, y = y)
