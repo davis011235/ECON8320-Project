@@ -26,5 +26,8 @@ y = st.sidebar.selectbox(
        'Ever in Military', 'Currently in Military', 'Union Member', 'City')
 )
 
+st.checkbox(
+    'Filter by City', False)
+
 st.scatter_chart(data = data, x = x, y = y)
 
