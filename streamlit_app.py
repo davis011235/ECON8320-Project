@@ -1,7 +1,6 @@
 #Importing packages
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 
 data_url = "https://raw.githubusercontent.com/davis011235/ECON8320-Project/main/df.csv"
 
